@@ -68,8 +68,8 @@ export default function Home() {
                 <li>Game Dev</li>
                 <li>Web Design</li>
               </ul>
-              <Link href="/works">
-                <button className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
+              <Link href="/works" className="ml-auto">
+                <button className="bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
                   詳しく見る
                 </button>
               </Link>
@@ -83,8 +83,8 @@ export default function Home() {
                   <p className="text-xs text-gray-500">Engineer</p>
                 </div>
               </div>
-              <Link href="/about">
-                <button className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
+              <Link href="/about" className="ml-auto">
+                <button className="bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
                   詳しく見る
                 </button>
               </Link>
