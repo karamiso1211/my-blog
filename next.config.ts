@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // ▼ この2行を追加してください
+  output: "export",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
