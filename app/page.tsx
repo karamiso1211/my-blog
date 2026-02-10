@@ -68,10 +68,11 @@ export default function Home() {
                 <li>Game Dev</li>
                 <li>Web Design</li>
               </ul>
-              <Link href="/works" className="ml-auto">
-                <button className="bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
-                  詳しく見る
-                </button>
+              <Link
+                href="/works"
+                className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2"
+              >
+                詳しく見る
               </Link>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm mb-6 flex flex-col">
@@ -83,10 +84,11 @@ export default function Home() {
                   <p className="text-xs text-gray-500">Engineer</p>
                 </div>
               </div>
-              <Link href="/about" className="ml-auto">
-                <button className="bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
-                  詳しく見る
-                </button>
+              <Link
+                href="/about"
+                className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2"
+              >
+                詳しく見る
               </Link>
             </div>
           </aside>
