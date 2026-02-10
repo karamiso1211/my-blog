@@ -58,10 +58,8 @@ export default function Home() {
               height={300}
               className="mx-auto block max-w-full h-auto"
             />
-            <h1 className="text-2xl font-bold mb-4">記事のタイトル</h1>
-            <p>
-              ここに本文が入ります。横幅が制限されるので、読みやすくなります。
-            </p>
+            <h1 className="text-2xl font-bold mb-4">タイトル</h1>
+            <p>素人が素人なりに頑張って作成しています。</p>
           </main>
           <aside className="lg:w-[30%]">
             <div className="bg-white p-6 rounded-xl shadow-sm mb-6 flex flex-col">
@@ -70,9 +68,11 @@ export default function Home() {
                 <li>Game Dev</li>
                 <li>Web Design</li>
               </ul>
-              <button className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
-                <Link href="/works">詳しく見る</Link>
-              </button>
+              <Link href="/works">
+                <button className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
+                  詳しく見る
+                </button>
+              </Link>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm mb-6 flex flex-col">
               <h3 className="font-bold border-b pb-2 mb-4">Profile</h3>
@@ -83,9 +83,11 @@ export default function Home() {
                   <p className="text-xs text-gray-500">Engineer</p>
                 </div>
               </div>
-              <button className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
-                <Link href="/about">詳しく見る</Link>
-              </button>
+              <Link href="/about">
+                <button className="ml-auto bg-[#252525] text-white hover:bg-[#3d3d3d] rounded px-4 py-2">
+                  詳しく見る
+                </button>
+              </Link>
             </div>
           </aside>
         </div>
